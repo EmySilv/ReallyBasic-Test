@@ -1,17 +1,19 @@
 import React from "react";
-import "./App.css";
-import BACKGROUND from "./assets/pattern_ReallyBasic.svg";
+import "./global/global.style.css";
 import Header from "./components/Header/Header";
 import Slide from "./components/Container/Slide/Slide";
+import Box from "./components/Container/Box/Box";
 import Foter from "./components/Foter/Foter";
 import "remixicon/fonts/remixicon.css";
 
 function App() {
   return (
     <>
-      {/* <img src={BACKGROUND} alt="" /> */}
-      <Header/>
-      <Slide/>
+      <Header />
+      
+      <Slide />
+      <Box />
+
       <Foter />
     </>
   );

@@ -13,14 +13,14 @@ const Header = () => {
 
         <div className="search_Wrapper">
           <div className="search">
-            <button>Pesquise mais produtos...</button>
-            <i className="ri-search-2-line"></i>
+            <p>Pesquise mais produtos...</p>
+            <button><i className="ri-search-2-line"/></button>
           </div>
 
           <div className="login">
             <i className="ri-account-circle-fill" />
             <div className="legend">
-              <button>Faça LOGIN ou </button>
+              <button>Faça LOGIN ou</button>
               <button> CADASTRE-SE</button>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Header = () => {
 
         <div className="actions">
           <div className="home">
-            <button>Início</button>
+            <button><p>Início</p></button>
           </div>
           <div className="company">
             <button>Empresa</button>
