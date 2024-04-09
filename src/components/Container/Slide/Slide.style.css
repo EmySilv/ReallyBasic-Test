@@ -12,7 +12,7 @@
   background-color: #5c90bb;
   gap: 1rem;
   color: #e9f2ef;
-    font-family: "Montserrat", poppins;
+  font-family: "Montserrat", poppins;
   i {
     font-size: 2rem;
   }
@@ -25,7 +25,7 @@
   align-items: start;
 
   .description {
-      width: 650px;
+    width: 650px;
     display: flex;
     gap: 1rem;
     flex-direction: column;
@@ -36,7 +36,6 @@
 .options {
   display: flex;
   gap: 0.6rem;
-  
 }
 
 .more {
@@ -46,33 +45,33 @@
   border-radius: 0.6rem;
   background-color: #e9f2ef;
   align-items: center;
-    justify-content: center;
-  
-  button{
+  justify-content: center;
+
+  button {
     color: #4682b4;
   }
 }
 
-.see{
-    width: 6.5rem;
-    height: 2rem;
-    display: flex;
+.see {
+  width: 6.5rem;
+  height: 2rem;
+  display: flex;
 
-    button{
-        color: #e9f2ef;
-      }
+  button {
+    color: #e9f2ef;
+  }
 }
 
 button {
   border: none;
   background: transparent;
-cursor: pointer;
+  cursor: pointer;
 }
 
 .image_description {
   padding-left: 10px;
-  
-    img {
+
+  img {
     width: 690px;
     height: 384px;
     border-radius: 8px;
@@ -82,8 +81,8 @@ cursor: pointer;
 .chevron {
   display: flex;
   padding: 10px;
-  
-  button{
+
+  button {
     color: #e9f2ef;
   }
 }

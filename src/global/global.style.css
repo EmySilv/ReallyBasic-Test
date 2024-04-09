@@ -1,6 +1,14 @@
-body{
-    background-color: #e9f2ef;
-    font-family: 'Montserrat', poppins;
-    margin: 0;
-    padding: 0;
-}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #8EA9BF;
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #efefef;
+    border-radius: 4px;
+  }

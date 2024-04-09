@@ -1,0 +1,42 @@
+.container_historia{
+    width: 1420px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 30rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    border: 2px solid #8EA9BF;
+    border-radius: .6rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+.historia_title{
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 600;
+}
+
+.historia_content{
+    letter-spacing: 1px;
+}
+
+.ilustration{
+    display: flex;
+    
+    img{
+        width: 30rem;
+        height: 16rem;
+        border-radius: 8px;
+    }
+}

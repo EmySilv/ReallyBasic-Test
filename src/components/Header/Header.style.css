@@ -48,6 +48,16 @@ button {
   }
 }
 
+.menu{
+  width: 8rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #4682b4;
+}
+
 .actions {
   display: flex;
   gap: 2rem;
