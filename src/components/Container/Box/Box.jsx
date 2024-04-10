@@ -7,9 +7,11 @@ import MesaJantar6 from "../../../assets/mesa6lugares.jpg";
 import CadeiraAmamentação from "../../../assets/CadeiraAmamentaçao.jpg";
 import SofaCasual from "../../../assets/sofaBranco.jpg";
 import CadeiraBranca from "../../../assets/cadeiraBranca.jpg";
+import { useState } from "react";
 
 const Box = () => {
- const produtos = [
+
+  const produtos = [
     {
       nome: "Assento para bancada Americana",
       preco: "(R$1.300,00)",
@@ -53,23 +55,14 @@ const Box = () => {
       preco: "(R$2.200,00)",
       imagem: MesaJantar6,
     },
-  ]
-
+  ];
   return (
     <div className="container_box">
       <div className="title">
         <p>BOXES DE DESTAQUE</p>
-        <div className="buttons">
-          <button>
-            <i className="ri-arrow-left-s-line"></i>
-          </button>
-          <button>
-            <i className="ri-arrow-right-s-line"></i>
-          </button>
-        </div>
       </div>
       <div className="conteudo">
-        {produtos.map((produto) => (
+      {produtos.map((produto) => (
           <div  key={produto} className="mesa">
             <div className="img">
               <img src={produto.imagem} alt={produto.nome} />

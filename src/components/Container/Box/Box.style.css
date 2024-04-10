@@ -1,31 +1,56 @@
 .container_box {
-  width: 1420px;
+  max-width: 1420px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   gap: 1rem;
-  padding: 2rem;
+  padding-top: 2rem;
 }
 
 .conteudo {
   display: flex;
   font-weight: 600;
   gap: 1.5rem;
+  flex-wrap: wrap;
 
   img {
     width: 20rem;
     height: 12rem;
-    display: flex;
+    display: block;
   }
 }
 
 .title {
   flex-direction: row;
   display: flex;
-  gap: 74rem;
+  gap: 2rem;
 
   button {
     cursor: pointer;
     color: #4682b4;
   }
 }
+
+@media (max-width: 768px) {
+  .container_box {
+     padding: 1rem;
+  }
+ 
+  .conteudo {
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+  }
+ 
+  .conteudo img {
+     max-width: 100%;
+     width: 100%;
+  }
+ 
+  .title {
+     flex-direction: column;
+     align-items: center;
+     gap: 1rem;
+  }
+ }

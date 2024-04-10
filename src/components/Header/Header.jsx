@@ -35,7 +35,9 @@ const Header = () => {
           </div>
 
           <div className="login">
-            <i className="ri-account-circle-fill" />
+           
+              <i className="ri-account-circle-fill" />
+         
             <div className="legend">
               <button>Faça LOGIN ou</button>
               <button> CADASTRE-SE</button>
